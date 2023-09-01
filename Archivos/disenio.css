@@ -1,0 +1,17 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: purple;
+    border: 5px solid;
+}
+
+.rotar{
+    animation: rotar1 2000ms infinite ease-in-out;
+}
+
+@keyframes rotar1 {
+    0%{transform: rotate3d(0,0,0,0);}
+    30%{transform: rotate3d(0,0,1,270deg);}
+    70%{transform: rotate3d(0,0,1,270deg);}
+    100%{transform: rotate3d(0,0,0,0);}
+}
